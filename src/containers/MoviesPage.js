@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import MovieShow from '../components/MovieShow';
 
 const MoviesList = ({ movies }) => {
   const renderMovies = Object.keys(movies).map(movieID =>
